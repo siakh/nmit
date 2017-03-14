@@ -1,0 +1,8 @@
+side
+for n=6:2*n:6*2^10,
+    if n=6,
+        sum=6
+        side=1
+    else
+        side=sqrt(2-2*sqrt(1-((side(n/2)^2)/4)))
+        sum=
