@@ -18,11 +18,11 @@ dummy2(2)='0';
 while div > 0,
    %Umrechnung für ganzzahligen Anteil 
    count=count+1;
-   dummy1(count)=num2str(mod(div, B));
+   dummy1(count)=num2str(mod(div, B))
    div=fix(div/B); 
 end
 
-dummy2=flip(dummy1);
+dummy2=flip(dummy1)
 
 
 
@@ -30,15 +30,18 @@ mult = z2*B;
 count=0;
 dummy3 = char(nmax);
 dummy3(1:nmax)='0';
-while mult ~= 0 && count < nmax,
+while mult ~= 0 && count <= nmax,
     %Umrechnung Nachkommaanteil
     count=count+1;
     dummy3(count)=num2str(fix(mult));
     mult=(mult-fix(mult))*B;
 end
+dummy3
 %Ausgabe als y inklusive Vorzeichen und Punkt.
-fprintf('%s.%s\n', dummy2,dummy3);
+fprintf('%s.%s)
 % Berechnung des Fehlers
+
+
 
 end
 
