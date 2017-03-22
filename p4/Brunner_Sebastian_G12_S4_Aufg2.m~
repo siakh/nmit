@@ -1,7 +1,0 @@
-function [ root, xint, n ] = Brunner_Sebastian_G12_S4_Aufg2(func,a,b,tol)
-    if func(a)*func(b) >= 0,
-        error(['
-
-
-end
-
