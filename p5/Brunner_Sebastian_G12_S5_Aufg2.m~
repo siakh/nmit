@@ -1,7 +1,0 @@
-k=zeros(50,1);
-k(1)=0.1;
-alpha=[0:0.25:4]
-for i=1:16,
-    alphaI=alpha(i);
-    for j=1:50,
-        
